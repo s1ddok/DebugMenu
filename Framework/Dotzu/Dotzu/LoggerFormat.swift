@@ -44,7 +44,7 @@ class LoggerFormat {
             attstr.addAttribute(NSAttributedStringKey.font, value: UIFont.boldSystemFont(ofSize: 12), range: range)
         }
         if let fileInfoString = log.fileInfo, LogsSettings.shared.fileInfo {
-            let range = NSMakeRange(startIndex, fileInfoString.characters.count)
+            let range = NSMakeRange(startIndex, fileInfoString.count)
             attstr.addAttribute(NSAttributedStringKey.foregroundColor, value: UIColor.gray, range: range)
             attstr.addAttribute(NSAttributedStringKey.font, value: UIFont.boldSystemFont(ofSize: 12), range: range)
         }

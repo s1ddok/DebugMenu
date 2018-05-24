@@ -26,9 +26,9 @@ class CrashListTableViewCell: UITableViewCell, LogCellProtocol {
         let attstr = NSMutableAttributedString(string: content)
 
         attstr.addAttribute(NSAttributedStringKey.foregroundColor,
-                            value: UIColor.white, range: NSMakeRange(0, content.characters.count))
+                            value: UIColor.white, range: NSMakeRange(0, content.count))
         if LogsSettings.shared.date {
-            let range = NSMakeRange(0, formatDate.characters.count)
+            let range = NSMakeRange(0, formatDate.count)
             attstr.addAttribute(NSAttributedStringKey.foregroundColor, value: Color.mainGreen, range: range)
             attstr.addAttribute(NSAttributedStringKey.font, value: UIFont.boldSystemFont(ofSize: 12), range: range)
         }

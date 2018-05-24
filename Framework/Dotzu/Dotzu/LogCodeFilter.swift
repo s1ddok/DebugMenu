@@ -16,7 +16,7 @@ class LogCodeFilter {
         return [code200 ? .code200 : nil,
                 code300 ? .code300 : nil,
                 code400 ? .code400 : nil,
-                code500 ? .code500 : nil].flatMap {$0}
+                code500 ? .code500 : nil].compactMap { $0 }
     }
 
     var code200: Bool {
