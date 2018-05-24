@@ -16,6 +16,8 @@ public class Dotzu: NSObject {
     private let userDefault = UserDefaults.standard
     var displayedList = false
 
+    var userOptions: [Option] = []
+    
     func initLogsManager() {
         if LogsSettings.shared.resetLogsStart {
             let _ = StoreManager<Log>(store: .log).reset()
@@ -44,6 +46,10 @@ public class Dotzu: NSObject {
 
     public func addLogger(session: URLSessionConfiguration) {
         session.protocolClasses?.insert(LoggerNetwork.self, at: 0)
+    }
+    
+    public func set(options: [Option]) {
+        self.userOptions = options
     }
 
     override init() {
