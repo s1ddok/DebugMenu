@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14112" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="72" id="cWO-IU-slx">
+            <rect key="frame" x="0.0" y="0.0" width="412" height="72"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cWO-IU-slx" id="aIS-T1-RgL">
+                <rect key="frame" x="0.0" y="0.0" width="412" height="71.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="setting name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qcc-aY-nEU">
+                        <rect key="frame" x="28" y="14" width="99.5" height="44"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lpC-Il-ptu">
+                        <rect key="frame" x="335" y="17" width="51" height="38"/>
+                        <color key="onTintColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
+                    </switch>
+                </subviews>
+                <color key="backgroundColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="Qcc-aY-nEU" secondAttribute="bottom" constant="3" id="0vK-3a-kaN"/>
+                    <constraint firstItem="lpC-Il-ptu" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Qcc-aY-nEU" secondAttribute="trailing" constant="16" id="1nj-fa-6IM"/>
+                    <constraint firstItem="Qcc-aY-nEU" firstAttribute="top" secondItem="aIS-T1-RgL" secondAttribute="topMargin" constant="3" id="Jd1-IS-w0n"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="lpC-Il-ptu" secondAttribute="trailing" constant="8" id="O1a-RQ-Jdg"/>
+                    <constraint firstItem="Qcc-aY-nEU" firstAttribute="leading" secondItem="aIS-T1-RgL" secondAttribute="leadingMargin" constant="8" id="hM1-mv-AnA"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="lpC-Il-ptu" secondAttribute="bottom" constant="6" id="zLt-P1-dbu"/>
+                    <constraint firstItem="lpC-Il-ptu" firstAttribute="top" secondItem="aIS-T1-RgL" secondAttribute="topMargin" constant="6" id="zqm-cD-Lce"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="170" y="96"/>
+        </tableViewCell>
+    </objects>
+</document>
