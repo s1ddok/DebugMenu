@@ -16,6 +16,7 @@ class UserOptionsViewController: UITableViewController {
 
         self.tableView.registerCellWithNib(cell: BoolOptionCell.self)
         self.tableView.registerCellWithNib(cell: FloatOptionCell.self)
+        self.tableView.registerCellWithNib(cell: SelectionOptionCell.self)
         
         self.tableView.rowHeight = UITableViewAutomaticDimension
         self.tableView.estimatedRowHeight = 140
@@ -40,10 +41,14 @@ class UserOptionsViewController: UITableViewController {
         
         let type: UITableViewCell.Type
         
-        if let _ = currentOption as? BoolOption {
+        if currentOption is BoolOption {
             type = BoolOptionCell.self
-        } else {
+        } else if currentOption is FloatOption {
             type = FloatOptionCell.self
+        } else if currentOption is SelectionOption {
+            type = SelectionOptionCell.self
+        } else {
+            type = UITableViewCell.self
         }
         
         guard let cell = tableView.dequeueCell(cell: type) as? OptionCell else {
