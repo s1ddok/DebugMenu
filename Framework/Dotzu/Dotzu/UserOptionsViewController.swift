@@ -15,8 +15,10 @@ class UserOptionsViewController: UITableViewController {
         super.viewDidLoad()
 
         self.tableView.registerCellWithNib(cell: BoolOptionCell.self)
+        self.tableView.registerCellWithNib(cell: FloatOptionCell.self)
         
-        self.tableView.estimatedRowHeight = 50
+        self.tableView.rowHeight = UITableViewAutomaticDimension
+        self.tableView.estimatedRowHeight = 140
         
         self.options = Dotzu.sharedManager.userOptions
     }
@@ -36,7 +38,15 @@ class UserOptionsViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let currentOption = options[indexPath.row]
         
-        guard let cell = tableView.dequeueCell(cell: BoolOptionCell.self) as? OptionCell else {
+        let type: UITableViewCell.Type
+        
+        if let _ = currentOption as? BoolOption {
+            type = BoolOptionCell.self
+        } else {
+            type = FloatOptionCell.self
+        }
+        
+        guard let cell = tableView.dequeueCell(cell: type) as? OptionCell else {
             return UITableViewCell()
         }
         cell.configure(for: currentOption)
