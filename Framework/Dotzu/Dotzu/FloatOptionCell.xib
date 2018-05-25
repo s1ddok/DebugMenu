@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14112" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="T7h-vB-yQO" customClass="FloatOptionCell" customModule="Dotzu" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="428" height="107"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="T7h-vB-yQO" id="nT6-wf-nqz">
+                <rect key="frame" x="0.0" y="0.0" width="428" height="106.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="setting name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9hO-Wf-JtY">
+                        <rect key="frame" x="28" y="14" width="100" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ML-aI-df6">
+                        <rect key="frame" x="392" y="14" width="24" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="jc8-Ae-5ZZ">
+                        <rect key="frame" x="18" y="47.5" width="384" height="41.5"/>
+                        <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="thumbTintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <connections>
+                            <action selector="valueChanged:" destination="T7h-vB-yQO" eventType="valueChanged" id="cax-hM-1pL"/>
+                        </connections>
+                    </slider>
+                </subviews>
+                <color key="backgroundColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="jc8-Ae-5ZZ" secondAttribute="bottom" constant="8" id="KDZ-8v-nav"/>
+                    <constraint firstItem="jc8-Ae-5ZZ" firstAttribute="leading" secondItem="nT6-wf-nqz" secondAttribute="trailing" constant="-408" id="RJe-0D-Msl"/>
+                    <constraint firstItem="2ML-aI-df6" firstAttribute="centerY" secondItem="9hO-Wf-JtY" secondAttribute="centerY" id="VRC-D5-OF0"/>
+                    <constraint firstItem="9hO-Wf-JtY" firstAttribute="top" secondItem="nT6-wf-nqz" secondAttribute="topMargin" constant="3" id="W0p-oG-LU8"/>
+                    <constraint firstItem="jc8-Ae-5ZZ" firstAttribute="top" secondItem="9hO-Wf-JtY" secondAttribute="bottom" constant="13" id="WER-pc-D8u"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="jc8-Ae-5ZZ" secondAttribute="trailing" constant="8" id="b9M-Zl-z5w"/>
+                    <constraint firstItem="9hO-Wf-JtY" firstAttribute="leading" secondItem="nT6-wf-nqz" secondAttribute="leadingMargin" constant="8" id="hJf-NE-2vm"/>
+                    <constraint firstItem="2ML-aI-df6" firstAttribute="trailing" secondItem="nT6-wf-nqz" secondAttribute="trailingMargin" constant="8" id="p9O-iu-04Z"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="name" destination="9hO-Wf-JtY" id="Psh-h4-19I"/>
+                <outlet property="slider" destination="jc8-Ae-5ZZ" id="HWV-IA-q7H"/>
+                <outlet property="valueLabel" destination="2ML-aI-df6" id="7zl-A2-XOm"/>
+            </connections>
+            <point key="canvasLocation" x="178" y="113.5"/>
+        </tableViewCell>
+    </objects>
+</document>
