@@ -21,12 +21,6 @@ class FloatOptionCell: UITableViewCell, OptionCell {
         option?.value = sender.value
     }
     
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        
-        contentView.frame = UIEdgeInsetsInsetRect(contentView.frame, UIEdgeInsetsMake(-10, -10, -10, -10))
-    }
-    
     func configure(for option: Option) {
         guard let fOption = option as? FloatOption else {
             return

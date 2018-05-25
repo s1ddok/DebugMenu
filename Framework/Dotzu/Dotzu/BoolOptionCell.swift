@@ -18,12 +18,6 @@ class BoolOptionCell: UITableViewCell, OptionCell {
         self.option?.value = sender.isOn
     }
     
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        
-        contentView.frame = UIEdgeInsetsInsetRect(contentView.frame, UIEdgeInsetsMake(-10, -10, -10, -10))
-    }
-    
     public func configure(for option: Option) {
         guard let boolOption = option as? BoolOption else {
             fatalError("Wrong option used for configuring cell")

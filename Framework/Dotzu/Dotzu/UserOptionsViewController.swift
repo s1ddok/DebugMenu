@@ -54,4 +54,8 @@ class UserOptionsViewController: UITableViewController {
         return cell as? UITableViewCell ?? UITableViewCell()
     }
     
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return UITableViewAutomaticDimension
+    }
+    
 }
