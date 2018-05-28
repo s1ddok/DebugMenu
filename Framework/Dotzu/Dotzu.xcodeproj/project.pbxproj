@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BBF9F93E1ECB8A39003227BE /* Dotzu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF9F9341ECB8A38003227BE /* Dotzu.framework */; };
-		BBF9F9431ECB8A39003227BE /* DotzuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F9421ECB8A39003227BE /* DotzuTests.swift */; };
 		BBF9F9451ECB8A39003227BE /* Dotzu.h in Headers */ = {isa = PBXBuildFile; fileRef = BBF9F9371ECB8A38003227BE /* Dotzu.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BBF9F9EC1ECB8CAB003227BE /* Application.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBF9F9A81ECB8CAB003227BE /* Application.storyboard */; };
 		BBF9F9ED1ECB8CAB003227BE /* ApplicationInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F9A91ECB8CAB003227BE /* ApplicationInformation.swift */; };
@@ -95,8 +94,6 @@
 		BBF9F9371ECB8A38003227BE /* Dotzu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dotzu.h; sourceTree = "<group>"; };
 		BBF9F9381ECB8A38003227BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBF9F93D1ECB8A39003227BE /* DotzuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DotzuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBF9F9421ECB8A39003227BE /* DotzuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotzuTests.swift; sourceTree = "<group>"; };
-		BBF9F9441ECB8A39003227BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBF9F9A81ECB8CAB003227BE /* Application.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Application.storyboard; sourceTree = "<group>"; };
 		BBF9F9A91ECB8CAB003227BE /* ApplicationInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationInformation.swift; sourceTree = "<group>"; };
 		BBF9F9AA1ECB8CAB003227BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -190,7 +187,6 @@
 			isa = PBXGroup;
 			children = (
 				BBF9F9361ECB8A38003227BE /* Dotzu */,
-				BBF9F9411ECB8A39003227BE /* DotzuTests */,
 				BBF9F9351ECB8A38003227BE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -242,15 +238,6 @@
 				BBF9F9EB1ECB8CAB003227BE /* UserDefaults+.swift */,
 			);
 			path = Dotzu;
-			sourceTree = "<group>";
-		};
-		BBF9F9411ECB8A39003227BE /* DotzuTests */ = {
-			isa = PBXGroup;
-			children = (
-				BBF9F9421ECB8A39003227BE /* DotzuTests.swift */,
-				BBF9F9441ECB8A39003227BE /* Info.plist */,
-			);
-			path = DotzuTests;
 			sourceTree = "<group>";
 		};
 		BBF9FA701ECB9181003227BE /* ViewModels */ = {
@@ -538,7 +525,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBF9F9431ECB8A39003227BE /* DotzuTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
