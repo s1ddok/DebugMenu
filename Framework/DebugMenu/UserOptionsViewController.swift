@@ -21,7 +21,7 @@ class UserOptionsViewController: UITableViewController {
         self.tableView.rowHeight = UITableViewAutomaticDimension
         self.tableView.estimatedRowHeight = 140
         
-        self.options = Dotzu.sharedManager.userOptions
+        self.options = DebugMenu.sharedManager.userOptions
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {

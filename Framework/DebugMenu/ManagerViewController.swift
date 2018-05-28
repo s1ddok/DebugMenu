@@ -32,7 +32,7 @@ class ManagerViewController: UIViewController, LogHeadViewDelegate {
     }
 
     func didTapButton() {
-        Dotzu.sharedManager.displayedList = true
+        DebugMenu.sharedManager.displayedList = true
         let storyboard = UIStoryboard(name: "Manager", bundle: Bundle(for: ManagerViewController.self))
         guard let controller = storyboard.instantiateInitialViewController() else {
             return
@@ -41,7 +41,7 @@ class ManagerViewController: UIViewController, LogHeadViewDelegate {
     }
 
     override func viewWillAppear(_ animated: Bool) {
-        Dotzu.sharedManager.displayedList = false
+        DebugMenu.sharedManager.displayedList = false
     }
 
     @objc func panDidFire(panner: UIPanGestureRecognizer) {
@@ -104,7 +104,7 @@ class ManagerViewController: UIViewController, LogHeadViewDelegate {
     }
 
     func shouldReceive(point: CGPoint) -> Bool {
-        if Dotzu.sharedManager.displayedList {
+        if DebugMenu.sharedManager.displayedList {
             return true
         }
         return self.button.frame.contains(point)

@@ -8,8 +8,8 @@
 
 import UIKit
 
-public class Dotzu: NSObject {
-    public static let sharedManager = Dotzu()
+public class DebugMenu: NSObject {
+    public static let sharedManager = DebugMenu()
     private var window: ManagerWindow
     fileprivate let controller = ManagerViewController()
     private let cache = NSCache<AnyObject, AnyObject>()
@@ -58,7 +58,7 @@ public class Dotzu: NSObject {
     }
 }
 
-extension Dotzu: ManagerWindowDelegate {
+extension DebugMenu: ManagerWindowDelegate {
     func isPointEvent(point: CGPoint) -> Bool {
         return self.controller.shouldReceive(point: point)
     }

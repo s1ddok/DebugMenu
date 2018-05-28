@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BBF9F9331ECB8A38003227BE"
-               BuildableName = "Dotzu.framework"
-               BlueprintName = "Dotzu"
-               ReferencedContainer = "container:Dotzu.xcodeproj">
+               BuildableName = "DebugMenu.framework"
+               BlueprintName = "DebugMenu"
+               ReferencedContainer = "container:DebugMenu.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -26,7 +26,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
@@ -36,7 +35,7 @@
                BlueprintIdentifier = "BBF9F93C1ECB8A39003227BE"
                BuildableName = "DotzuTests.xctest"
                BlueprintName = "DotzuTests"
-               ReferencedContainer = "container:Dotzu.xcodeproj">
+               ReferencedContainer = "container:DebugMenu.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BBF9F9331ECB8A38003227BE"
-            BuildableName = "Dotzu.framework"
-            BlueprintName = "Dotzu"
-            ReferencedContainer = "container:Dotzu.xcodeproj">
+            BuildableName = "DebugMenu.framework"
+            BlueprintName = "DebugMenu"
+            ReferencedContainer = "container:DebugMenu.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,7 +55,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -67,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BBF9F9331ECB8A38003227BE"
-            BuildableName = "Dotzu.framework"
-            BlueprintName = "Dotzu"
-            ReferencedContainer = "container:Dotzu.xcodeproj">
+            BuildableName = "DebugMenu.framework"
+            BlueprintName = "DebugMenu"
+            ReferencedContainer = "container:DebugMenu.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -85,9 +83,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BBF9F9331ECB8A38003227BE"
-            BuildableName = "Dotzu.framework"
-            BlueprintName = "Dotzu"
-            ReferencedContainer = "container:Dotzu.xcodeproj">
+            BuildableName = "DebugMenu.framework"
+            BlueprintName = "DebugMenu"
+            ReferencedContainer = "container:DebugMenu.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
