@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary = 'iOS debug menu.'
   s.homepage = 'https://github.com/s1ddok/DebugMenu'
   s.social_media_url = 'https://twitter.com/s1ddok'
-  s.authors = { 'Andrey Volodin' => 'siddok@gmail.com }
+  s.authors = { 'Andrey Volodin' => 'siddok@gmail.com' }
   s.source = { :git => 'https://github.com/s1ddok/DebugMenu.git', :tag => s.version }
   s.ios.deployment_target = '9.0'
   s.ios.frameworks = 'UIKit', 'Foundation'
