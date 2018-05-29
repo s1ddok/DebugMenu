@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.ios.frameworks = 'UIKit', 'Foundation'
   s.source_files = 'Framework/DebugMenu/**/*.swift'
+  s.swift_version = '4.0'
   s.resources = ["Framework/DebugMenu/**/*.storyboard", 'Framework/DebugMenu/*.xcassets', 'Framework/DebugMenu/**/*.xib']
   s.requires_arc = true
 end
