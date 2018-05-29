@@ -11,12 +11,28 @@ class UserOptionsViewController: UITableViewController {
     
     var options: [Option] = []
     
+    fileprivate var registeredTypes: [ObjectIdentifier: UITableViewCell.Type] = [:]
+    
+    fileprivate func register(cellType: UITableViewCell.Type, for modelType: Option.Type) {
+        let typeId = ObjectIdentifier(modelType)
+        self.registeredTypes[typeId] = cellType
+    }
+    
+    fileprivate func cellType(for modelType: Option.Type) -> UITableViewCell.Type? {
+        let typeId = ObjectIdentifier(modelType)
+        return self.registeredTypes[typeId]
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.tableView.registerCellWithNib(cell: BoolOptionCell.self)
         self.tableView.registerCellWithNib(cell: FloatOptionCell.self)
         self.tableView.registerCellWithNib(cell: SelectionOptionCell.self)
+        
+        self.register(cellType: BoolOptionCell.self, for: BoolOption.self)
+        self.register(cellType: FloatOptionCell.self, for: FloatOption.self)
+        self.register(cellType: SelectionOptionCell.self, for: SelectionOption.self)
         
         self.tableView.rowHeight = UITableViewAutomaticDimension
         self.tableView.estimatedRowHeight = 140
@@ -39,19 +55,10 @@ class UserOptionsViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let currentOption = options[indexPath.row]
         
-        let type: UITableViewCell.Type
-        
-        if currentOption is BoolOption {
-            type = BoolOptionCell.self
-        } else if currentOption is FloatOption {
-            type = FloatOptionCell.self
-        } else if currentOption is SelectionOption {
-            type = SelectionOptionCell.self
-        } else {
-            type = UITableViewCell.self
-        }
-        
-        guard let cell = tableView.dequeueCell(cell: type) as? OptionCell else {
+        guard
+            let cellType = self.cellType(for: type(of: currentOption)),
+            let cell = self.tableView.dequeueCell(cell: cellType) as? OptionCell
+        else {
             return UITableViewCell()
         }
         cell.configure(for: currentOption)
