@@ -58,10 +58,7 @@ class LogHeadView: UIView {
     fileprivate func initLayer() {
         backgroundColor = UIColor.black
         layer.shadowColor = UIColor.black.cgColor
-        layer.shadowRadius = 5
-        layer.shadowOpacity = 0.8
         layer.cornerRadius = 40
-        layer.shadowOffset = CGSize.zero
         sizeToFit()
         layer.masksToBounds = true
 
