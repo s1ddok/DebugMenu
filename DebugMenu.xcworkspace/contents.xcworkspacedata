@@ -12,7 +12,7 @@
       location = "container:Example"
       name = "Example">
       <FileRef
-         location = "group:/Users/avolodin/Documents/Projects/job/DebugMenu/Example/ExampleDotzu/DebugMenuExample.xcodeproj">
+         location = "group:DebugMenuExample.xcodeproj">
       </FileRef>
    </Group>
 </Workspace>
