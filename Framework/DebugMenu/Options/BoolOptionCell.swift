@@ -20,7 +20,7 @@ class BoolOptionCell: UITableViewCell, OptionCell {
     
     public func configure(for option: Option) {
         guard let boolOption = option as? BoolOption else {
-            fatalError("Wrong option used for configuring cell")
+            fatalError("Wrong option was used for configuring the cell")
         }
         
         self.optionName.text = option.name
