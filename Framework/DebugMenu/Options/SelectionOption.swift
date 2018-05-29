@@ -1,6 +1,6 @@
 //
 //  File.swift
-//  Dotzu
+//  DebugMenu
 //
 //  Created by Andrey Volodin on 25.05.2018.
 //

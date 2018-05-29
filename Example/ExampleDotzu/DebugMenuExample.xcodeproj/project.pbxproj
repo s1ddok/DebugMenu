@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		938C358B20BD53C60090414F /* DebugMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 938C358A20BD53C60090414F /* DebugMenu.framework */; };
+		938C358C20BD53C60090414F /* DebugMenu.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 938C358A20BD53C60090414F /* DebugMenu.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BBF9FA5B1ECB9041003227BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9FA5A1ECB9041003227BE /* AppDelegate.swift */; };
 		BBF9FA621ECB9041003227BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBF9FA611ECB9041003227BE /* Assets.xcassets */; };
 		BBF9FA651ECB9041003227BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBF9FA631ECB9041003227BE /* LaunchScreen.storyboard */; };
-		BBF9FA6D1ECB9101003227BE /* Dotzu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF9FA6C1ECB9101003227BE /* Dotzu.framework */; };
-		BBF9FA6E1ECB9101003227BE /* Dotzu.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BBF9FA6C1ECB9101003227BE /* Dotzu.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BBF9FA7C1ECB945C003227BE /* CrashTestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9FA771ECB945C003227BE /* CrashTestTableViewController.swift */; };
 		BBF9FA7D1ECB945C003227BE /* LogTestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9FA781ECB945C003227BE /* LogTestTableViewController.swift */; };
 		BBF9FA7E1ECB945C003227BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBF9FA791ECB945C003227BE /* Main.storyboard */; };
@@ -20,13 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		BBF9FA6F1ECB9102003227BE /* Embed Frameworks */ = {
+		938C358D20BD53C60090414F /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				BBF9FA6E1ECB9101003227BE /* Dotzu.framework in Embed Frameworks */,
+				938C358C20BD53C60090414F /* DebugMenu.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -34,12 +34,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BBF9FA571ECB9041003227BE /* ExampleDotzu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleDotzu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		938C358A20BD53C60090414F /* DebugMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DebugMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF9FA571ECB9041003227BE /* DebugMenuExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DebugMenuExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF9FA5A1ECB9041003227BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBF9FA611ECB9041003227BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBF9FA641ECB9041003227BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBF9FA661ECB9041003227BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BBF9FA6C1ECB9101003227BE /* Dotzu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Dotzu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF9FA771ECB945C003227BE /* CrashTestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrashTestTableViewController.swift; sourceTree = "<group>"; };
 		BBF9FA781ECB945C003227BE /* LogTestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogTestTableViewController.swift; sourceTree = "<group>"; };
 		BBF9FA791ECB945C003227BE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBF9FA6D1ECB9101003227BE /* Dotzu.framework in Frameworks */,
+				938C358B20BD53C60090414F /* DebugMenu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,8 +62,8 @@
 		BBF9FA4E1ECB9041003227BE = {
 			isa = PBXGroup;
 			children = (
-				BBF9FA6C1ECB9101003227BE /* Dotzu.framework */,
-				BBF9FA591ECB9041003227BE /* ExampleDotzu */,
+				938C358A20BD53C60090414F /* DebugMenu.framework */,
+				BBF9FA591ECB9041003227BE /* DebugMenuExample */,
 				BBF9FA581ECB9041003227BE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,12 +71,12 @@
 		BBF9FA581ECB9041003227BE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BBF9FA571ECB9041003227BE /* ExampleDotzu.app */,
+				BBF9FA571ECB9041003227BE /* DebugMenuExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BBF9FA591ECB9041003227BE /* ExampleDotzu */ = {
+		BBF9FA591ECB9041003227BE /* DebugMenuExample */ = {
 			isa = PBXGroup;
 			children = (
 				BBF9FA5A1ECB9041003227BE /* AppDelegate.swift */,
@@ -89,28 +89,28 @@
 				BBF9FA631ECB9041003227BE /* LaunchScreen.storyboard */,
 				BBF9FA661ECB9041003227BE /* Info.plist */,
 			);
-			path = ExampleDotzu;
+			path = DebugMenuExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BBF9FA561ECB9041003227BE /* ExampleDotzu */ = {
+		BBF9FA561ECB9041003227BE /* DebugMenuExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBF9FA691ECB9041003227BE /* Build configuration list for PBXNativeTarget "ExampleDotzu" */;
+			buildConfigurationList = BBF9FA691ECB9041003227BE /* Build configuration list for PBXNativeTarget "DebugMenuExample" */;
 			buildPhases = (
 				BBF9FA531ECB9041003227BE /* Sources */,
 				BBF9FA541ECB9041003227BE /* Frameworks */,
 				BBF9FA551ECB9041003227BE /* Resources */,
-				BBF9FA6F1ECB9102003227BE /* Embed Frameworks */,
+				938C358D20BD53C60090414F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ExampleDotzu;
+			name = DebugMenuExample;
 			productName = ExampleDotzu;
-			productReference = BBF9FA571ECB9041003227BE /* ExampleDotzu.app */;
+			productReference = BBF9FA571ECB9041003227BE /* DebugMenuExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,12 +125,12 @@
 				TargetAttributes = {
 					BBF9FA561ECB9041003227BE = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 44Q2J6374R;
+						DevelopmentTeam = 8L7MP7X2MT;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = BBF9FA521ECB9041003227BE /* Build configuration list for PBXProject "ExampleDotzu" */;
+			buildConfigurationList = BBF9FA521ECB9041003227BE /* Build configuration list for PBXProject "DebugMenuExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -143,7 +143,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BBF9FA561ECB9041003227BE /* ExampleDotzu */,
+				BBF9FA561ECB9041003227BE /* DebugMenuExample */,
 			);
 		};
 /* End PBXProject section */
@@ -299,10 +299,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 44Q2J6374R;
-				INFOPLIST_FILE = ExampleDotzu/Info.plist;
+				DEVELOPMENT_TEAM = 8L7MP7X2MT;
+				INFOPLIST_FILE = DebugMenuExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.remirobert.ExampleDotzu;
+				PRODUCT_BUNDLE_IDENTIFIER = me.s1ddok.DebugMenuExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -312,10 +313,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 44Q2J6374R;
-				INFOPLIST_FILE = ExampleDotzu/Info.plist;
+				DEVELOPMENT_TEAM = 8L7MP7X2MT;
+				INFOPLIST_FILE = DebugMenuExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.remirobert.ExampleDotzu;
+				PRODUCT_BUNDLE_IDENTIFIER = me.s1ddok.DebugMenuExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -324,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BBF9FA521ECB9041003227BE /* Build configuration list for PBXProject "ExampleDotzu" */ = {
+		BBF9FA521ECB9041003227BE /* Build configuration list for PBXProject "DebugMenuExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBF9FA671ECB9041003227BE /* Debug */,
@@ -333,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBF9FA691ECB9041003227BE /* Build configuration list for PBXNativeTarget "ExampleDotzu" */ = {
+		BBF9FA691ECB9041003227BE /* Build configuration list for PBXNativeTarget "DebugMenuExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBF9FA6A1ECB9041003227BE /* Debug */,

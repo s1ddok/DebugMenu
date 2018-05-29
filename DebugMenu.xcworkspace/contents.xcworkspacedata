@@ -5,14 +5,14 @@
       location = "container:Framework"
       name = "Framework">
       <FileRef
-         location = "group:Dotzu/Dotzu.xcodeproj">
+         location = "group:DebugMenu.xcodeproj">
       </FileRef>
    </Group>
    <Group
       location = "container:Example"
       name = "Example">
       <FileRef
-         location = "group:ExampleDotzu/ExampleDotzu.xcodeproj">
+         location = "group:/Users/avolodin/Documents/Projects/job/DebugMenu/Example/ExampleDotzu/DebugMenuExample.xcodeproj">
       </FileRef>
    </Group>
 </Workspace>

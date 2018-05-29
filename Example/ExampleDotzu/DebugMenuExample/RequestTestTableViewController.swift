@@ -1,14 +1,14 @@
 //
 //  RequestTestTableViewController.swift
-//  Dotzu
+//  DebugMenu
 //
 //  Created by Remi Robert on 02/02/2017.
 //  Copyright © 2017 Remi Robert. All rights reserved.
 //
 
 import UIKit
-import Dotzu
-import Dotzu
+import DebugMenu
+import DebugMenu
 
 class RequestTestTableViewController: UITableViewController {
 
@@ -19,7 +19,7 @@ class RequestTestTableViewController: UITableViewController {
         super.viewDidLoad()
 
         let configuration = URLSessionConfiguration.default
-        Dotzu.sharedManager.addLogger(session: configuration)
+        DebugMenu.sharedManager.addLogger(session: configuration)
         session = URLSession(configuration: configuration)
     }
 

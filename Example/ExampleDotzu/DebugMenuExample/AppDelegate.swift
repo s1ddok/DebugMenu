@@ -1,13 +1,13 @@
 //
 //  AppDelegate.swift
-//  ExampleDotzu
+//  ExampleDebugMenu
 //
 //  Created by Remi Robert on 16/05/2017.
 //  Copyright © 2017 Remi Robert. All rights reserved.
 //
 
 import UIKit
-import Dotzu
+import DebugMenu
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        Dotzu.sharedManager.enable()
+        DebugMenu.sharedManager.enable()
         return true
     }
 }

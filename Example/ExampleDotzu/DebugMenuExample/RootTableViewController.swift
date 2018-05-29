@@ -7,20 +7,20 @@
 //
 
 import UIKit
-import Dotzu
+import DebugMenu
 
 class RootTableViewController: UITableViewController {
 
     @IBAction func switchChanged(_ sender: UISwitch) {
         if sender.isOn {
-            Dotzu.sharedManager.enable()
+            DebugMenu.sharedManager.enable()
         } else {
-            Dotzu.sharedManager.disable()
+            DebugMenu.sharedManager.disable()
         }
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Dotzu test app"
+        title = "DebugMenu test app"
     }
 }

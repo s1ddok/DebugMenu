@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		938C359D20BD54C50090414F /* SelectionOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C359020BD54C40090414F /* SelectionOptionCell.swift */; };
+		938C359E20BD54C50090414F /* BoolOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C359120BD54C40090414F /* BoolOption.swift */; };
+		938C359F20BD54C50090414F /* FloatOptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 938C359220BD54C40090414F /* FloatOptionCell.xib */; };
+		938C35A020BD54C50090414F /* UserOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C359320BD54C40090414F /* UserOptionsViewController.swift */; };
+		938C35A120BD54C50090414F /* FloatOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C359420BD54C40090414F /* FloatOption.swift */; };
+		938C35A220BD54C50090414F /* BoolOptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 938C359520BD54C40090414F /* BoolOptionCell.xib */; };
+		938C35A320BD54C50090414F /* SelectionOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C359620BD54C40090414F /* SelectionOption.swift */; };
+		938C35A420BD54C50090414F /* SelectionOptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 938C359720BD54C40090414F /* SelectionOptionCell.xib */; };
+		938C35A520BD54C50090414F /* FloatOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C359820BD54C40090414F /* FloatOptionCell.swift */; };
+		938C35A620BD54C50090414F /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C359920BD54C40090414F /* Option.swift */; };
+		938C35A720BD54C50090414F /* UserOptions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938C359A20BD54C50090414F /* UserOptions.storyboard */; };
+		938C35A820BD54C50090414F /* OptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C359B20BD54C50090414F /* OptionCell.swift */; };
+		938C35A920BD54C50090414F /* BoolOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C359C20BD54C50090414F /* BoolOptionCell.swift */; };
 		BBF9F9451ECB8A39003227BE /* Dotzu.h in Headers */ = {isa = PBXBuildFile; fileRef = BBF9F9371ECB8A38003227BE /* Dotzu.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BBF9F9EC1ECB8CAB003227BE /* Application.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBF9F9A81ECB8CAB003227BE /* Application.storyboard */; };
 		BBF9F9ED1ECB8CAB003227BE /* ApplicationInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F9A91ECB8CAB003227BE /* ApplicationInformation.swift */; };
@@ -79,6 +92,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		938C359020BD54C40090414F /* SelectionOptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionOptionCell.swift; sourceTree = "<group>"; };
+		938C359120BD54C40090414F /* BoolOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoolOption.swift; sourceTree = "<group>"; };
+		938C359220BD54C40090414F /* FloatOptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FloatOptionCell.xib; sourceTree = "<group>"; };
+		938C359320BD54C40090414F /* UserOptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserOptionsViewController.swift; sourceTree = "<group>"; };
+		938C359420BD54C40090414F /* FloatOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatOption.swift; sourceTree = "<group>"; };
+		938C359520BD54C40090414F /* BoolOptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BoolOptionCell.xib; sourceTree = "<group>"; };
+		938C359620BD54C40090414F /* SelectionOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionOption.swift; sourceTree = "<group>"; };
+		938C359720BD54C40090414F /* SelectionOptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectionOptionCell.xib; sourceTree = "<group>"; };
+		938C359820BD54C40090414F /* FloatOptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatOptionCell.swift; sourceTree = "<group>"; };
+		938C359920BD54C40090414F /* Option.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
+		938C359A20BD54C50090414F /* UserOptions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UserOptions.storyboard; sourceTree = "<group>"; };
+		938C359B20BD54C50090414F /* OptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionCell.swift; sourceTree = "<group>"; };
+		938C359C20BD54C50090414F /* BoolOptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoolOptionCell.swift; sourceTree = "<group>"; };
 		BBF9F9341ECB8A38003227BE /* DebugMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DebugMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF9F9371ECB8A38003227BE /* Dotzu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dotzu.h; sourceTree = "<group>"; };
 		BBF9F9381ECB8A38003227BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -163,6 +189,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		938C358F20BD54390090414F /* Options */ = {
+			isa = PBXGroup;
+			children = (
+				938C359120BD54C40090414F /* BoolOption.swift */,
+				938C359C20BD54C50090414F /* BoolOptionCell.swift */,
+				938C359520BD54C40090414F /* BoolOptionCell.xib */,
+				938C359420BD54C40090414F /* FloatOption.swift */,
+				938C359820BD54C40090414F /* FloatOptionCell.swift */,
+				938C359220BD54C40090414F /* FloatOptionCell.xib */,
+				938C359920BD54C40090414F /* Option.swift */,
+				938C359B20BD54C50090414F /* OptionCell.swift */,
+				938C359620BD54C40090414F /* SelectionOption.swift */,
+				938C359020BD54C40090414F /* SelectionOptionCell.swift */,
+				938C359720BD54C40090414F /* SelectionOptionCell.xib */,
+				938C359A20BD54C50090414F /* UserOptions.storyboard */,
+				938C359320BD54C40090414F /* UserOptionsViewController.swift */,
+			);
+			path = Options;
+			sourceTree = "<group>";
+		};
 		BBF9F92A1ECB8A38003227BE = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +228,7 @@
 		BBF9F9361ECB8A38003227BE /* DebugMenu */ = {
 			isa = PBXGroup;
 			children = (
+				938C358F20BD54390090414F /* Options */,
 				BBF9F9371ECB8A38003227BE /* Dotzu.h */,
 				BBF9F9A91ECB8CAB003227BE /* ApplicationInformation.swift */,
 				BBF9FA761ECB9330003227BE /* Products */,
@@ -391,12 +438,16 @@
 				BBF9FA211ECB8CAB003227BE /* RequestDataHttpBodyTableViewCell.xib in Resources */,
 				BBF9FA291ECB8CAB003227BE /* ResponseDataTableViewCell.xib in Resources */,
 				BBF9F9F21ECB8CAB003227BE /* CrashListTableViewCell.xib in Resources */,
+				938C35A720BD54C50090414F /* UserOptions.storyboard in Resources */,
 				BBF9FA1A1ECB8CAB003227BE /* Manager.storyboard in Resources */,
+				938C359F20BD54C50090414F /* FloatOptionCell.xib in Resources */,
 				BBF9FA251ECB8CAB003227BE /* RequestHeadersTableViewCell.xib in Resources */,
+				938C35A420BD54C50090414F /* SelectionOptionCell.xib in Resources */,
 				BBF9FA231ECB8CAB003227BE /* RequestErrorTableViewCell.xib in Resources */,
 				BBF9F9EC1ECB8CAB003227BE /* Application.storyboard in Resources */,
 				BBF9FA141ECB8CAB003227BE /* Logs.storyboard in Resources */,
 				BBF9FA181ECB8CAB003227BE /* LogTableViewCell.xib in Resources */,
+				938C35A220BD54C50090414F /* BoolOptionCell.xib in Resources */,
 				BBF9FA0F1ECB8CAB003227BE /* LogNetworkTableViewCell.xib in Resources */,
 				BBF9FA2A1ECB8CAB003227BE /* Settings.storyboard in Resources */,
 				BBF9FA271ECB8CAB003227BE /* RequestLatencyTableViewCell.xib in Resources */,
@@ -425,9 +476,11 @@
 				BBF9FA1B1ECB8CAB003227BE /* ManagerListLogState.swift in Sources */,
 				BBF9F9F81ECB8CAB003227BE /* DotzuManager.swift in Sources */,
 				BBF9FA0E1ECB8CAB003227BE /* LogNetworkTableViewCell.swift in Sources */,
+				938C35A120BD54C50090414F /* FloatOption.swift in Sources */,
 				BBF9FA0A1ECB8CAB003227BE /* LogHeadView.swift in Sources */,
 				BBF9F9FC1ECB8CAB003227BE /* InformationsTableViewController.swift in Sources */,
 				BBF9FA061ECB8CAB003227BE /* Logger.swift in Sources */,
+				938C35A020BD54C50090414F /* UserOptionsViewController.swift in Sources */,
 				BBF9FA121ECB8CAB003227BE /* LogRequest.swift in Sources */,
 				BBF9FA1C1ECB8CAB003227BE /* ManagerListLogViewController.swift in Sources */,
 				BBF9FA0B1ECB8CAB003227BE /* LogLevel.swift in Sources */,
@@ -437,6 +490,7 @@
 				BBF9F9F31ECB8CAB003227BE /* DetailCrashTableViewController.swift in Sources */,
 				BBF9FA2B1ECB8CAB003227BE /* SettingsTableViewController.swift in Sources */,
 				BBF9FA261ECB8CAB003227BE /* RequestLatencyTableViewCell.swift in Sources */,
+				938C359D20BD54C50090414F /* SelectionOptionCell.swift in Sources */,
 				BBF9FA2F1ECB8CAB003227BE /* UserDefaults+.swift in Sources */,
 				BBF9FA001ECB8CAB003227BE /* LogBadgeView.swift in Sources */,
 				BBF9FA201ECB8CAB003227BE /* RequestDataHttpBodyTableViewCell.swift in Sources */,
@@ -451,16 +505,22 @@
 				BBF9FA0D1ECB8CAB003227BE /* LogNavigationViewController.swift in Sources */,
 				BBF9F9F91ECB8CAB003227BE /* FilterLogTableViewController.swift in Sources */,
 				BBF9FA2E1ECB8CAB003227BE /* UITableView+.swift in Sources */,
+				938C35A820BD54C50090414F /* OptionCell.swift in Sources */,
 				BBF9FA131ECB8CAB003227BE /* LogResponseBodyViewModel.swift in Sources */,
 				BBF9F9F11ECB8CAB003227BE /* CrashListTableViewCell.swift in Sources */,
+				938C359E20BD54C50090414F /* BoolOption.swift in Sources */,
 				BBF9FA281ECB8CAB003227BE /* ResponseDataTableViewCell.swift in Sources */,
 				BBF9F9FE1ECB8CAB003227BE /* ListLogViewModel.swift in Sources */,
 				BBF9FA011ECB8CAB003227BE /* LogCellProtocol.swift in Sources */,
 				BBF9FA111ECB8CAB003227BE /* LogProtocol.swift in Sources */,
+				938C35A920BD54C50090414F /* BoolOptionCell.swift in Sources */,
 				BBF9FA091ECB8CAB003227BE /* LoggerNetwork.swift in Sources */,
 				BBF9F9F71ECB8CAB003227BE /* DeviceModel.swift in Sources */,
+				938C35A520BD54C50090414F /* FloatOptionCell.swift in Sources */,
+				938C35A620BD54C50090414F /* Option.swift in Sources */,
 				BBF9F9F51ECB8CAB003227BE /* DetailResponseBodyViewController.swift in Sources */,
 				BBF9F9F41ECB8CAB003227BE /* DetailRequestViewController.swift in Sources */,
+				938C35A320BD54C50090414F /* SelectionOption.swift in Sources */,
 				BBF9FA241ECB8CAB003227BE /* RequestHeadersTableViewCell.swift in Sources */,
 				BBF9FA041ECB8CAB003227BE /* LogCrash.swift in Sources */,
 				BBF9FA051ECB8CAB003227BE /* LogGenerator.swift in Sources */,
@@ -596,6 +656,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = DebugMenu/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.s1ddok.DebugMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -617,6 +678,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = DebugMenu/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.s1ddok.DebugMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
