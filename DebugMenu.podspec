@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/s1ddok/DebugMenu.git', :tag => s.version }
   s.ios.deployment_target = '9.0'
   s.ios.frameworks = 'UIKit', 'Foundation'
-  s.source_files = 'Framework/DebugMenu/*.swift'
-  s.resources = ["Framework/DebugMenu/*.storyboard", 'Framework/DebugMenu/*.xcassets', 'Framework/DebugMenu/*.xib']
+  s.source_files = 'Framework/DebugMenu/**/*.swift'
+  s.resources = ["Framework/DebugMenu/**/*.storyboard", 'Framework/DebugMenu/*.xcassets', 'Framework/DebugMenu/**/*.xib']
   s.requires_arc = true
 end
