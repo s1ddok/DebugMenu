@@ -46,10 +46,6 @@ class SettingsTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let image = UIImage(named: "logo", in: Bundle(for: LogHeadView.self), compatibleWith: nil)
-        imageViewLogo.image = image?.withRenderingMode(.alwaysTemplate)
-        imageViewLogo.tintColor = Color.mainGreen
-
         switchDisplayInfoFile.onTintColor = Color.mainGreen
         switchOverridePrint.onTintColor = Color.mainGreen
         switchResetLogs.onTintColor = Color.mainGreen
